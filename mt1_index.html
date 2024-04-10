@@ -14,8 +14,8 @@
   </head>
 
   <body>
-    <header style="position: relative">
-      <nav>
+    <header style="position: relative; z-index: 5">
+      <nav style="position: relative; z-index: 7">
         <ul>
           <li><a href="mt1_index.html">Home</a></li>
           <li><a href="mt1_index.html">Services</a></li>
@@ -26,7 +26,12 @@
       <div>
         <article>
           <img
-            style="margin-left: 00px"
+            style="
+              margin-left: -250px;
+              position: relative;
+              z-index: 2;
+              width: 1020px;
+            "
             src="mt1_photo1.jpg"
             alt="David Tree Care"
           />
@@ -58,7 +63,7 @@
         </article>
       </div>
     </header>
-    <aside>
+    <aside style="position: absolute; top: 0; left: 0; z-index: 10">
       <img src="mt1_comments.png" alt="Comments" />
       <div>
         <p>
